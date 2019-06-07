@@ -14,7 +14,7 @@ The branch is applied to show appropriate response based on user's choice.
 * You need to have the recent bootstrap from https://getbootstrap.com/docs/4.3/getting-started/download/
 * You need to have jquery 3.4.1 in your local drive. (https://code.jquery.com/jquery-3.4.1.js)
 * find it on https://github.com/quantum93/Week2Friday.git
-* Click here: https://quantum93.github.io/Week1Friday/
+* Click here: https://quantum93.github.io/Week2Friday/
 * open any web browser to see content of html page
 
 You don't need any server, database or specific OS to run it.
