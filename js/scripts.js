@@ -45,31 +45,42 @@ $(document).ready(function () {
   });
 
   $('.formFour').submit(function (event) {
+    event.preventDefault();
     var choiceFour = $('#questionFour').val();
-    var choiceFive = $('#questionFive').val();
     if (choiceFour === '0') {
       $('.formChoice').show();
       $('#languageThree').show();
     } else if (choiceFour === '1') {
-      $('#languageThree').hide();
       $('.formChoice').show();
+      $('#languageThree').hide();
       $('#languageFour').show();
     } else if (choiceFour === '2') {
+      $('.formChoice').show();
       $('#languageThree').hide();
       $('#languageFour').hide();
-      $('.formChoice').show();
       $('#languageFive').show();
     } else if (choiceFour === '3') {
+      $('.formChoice').hide();
       $('#languageThree').hide();
       $('#languageFour').hide();
       $('#languageFive').hide();
-      $('.formChoice').show();
-      $('#languageTwo').show();
+      $('.formFive').show();
     }
   });
 
   $('.formFive').submit(function (event) {
-    var choiceFour = $('#questionFour').val();
+    event.preventDefault();
     var choiceFive = $('#questionFive').val();
+    if (choiceFive === '0') {
+      $('#languageFive').hide();
+      $('.formChoice').show();
+      $('#languageTwo').show();
+    } else if (choiceFive === '1') {
+      $('#languageTwo').hide();
+      $('.formChoice').show();
+      $('#languageFive').show();
+    }
   });
+
+  event.preventDefault();
 });
