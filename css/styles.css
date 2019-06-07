@@ -1,8 +1,40 @@
-#languageOne, #languageTwo, #languageThree, #languageFour, #languageFive {
+#languageZero {
+  display: none;
+  }
+
+#languageOne {
+  display: none;
+  }
+
+#languageTwo {
+  display: none;
+  }
+
+#languageThree {
+  display: none;
+  }
+
+#languageFour {
+  display: none;
+  }
+
+#languageFive {
   display: none;
 }
 
-.formTwo, .formThree, .formFour, .formFive {
+.formTwo {
+  display: none;
+  }
+.formThree {
+  display: none;
+  }
+.formFour {
+  display: none;
+  }
+.formFive {
+  display: none;
+  }
+.formChoice {
   display: none;
 }
 

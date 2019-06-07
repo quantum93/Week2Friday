@@ -26,7 +26,7 @@
           <option value="1">Yes</option>
         </select>
         <br>
-        <!-- <button type="submit" name="button">please click here.</button> -->
+        <button type="submit" name="button">please click here.</button>
       </form>
     </div>
     <br>
@@ -37,31 +37,31 @@
           <div class="jumbotron">
             <h2>Do you have any experience of scripting or automation in computer?</h2>
             <select class="form-control" id="questionTwo">
-              <option value="0">Yes</option>
-              <option value="1">No</option>
+              <option value="0">No</option>
+              <option value="1">Yes</option>
             </select>
             <br>
-            <!-- <button type="submit" name="button">please click here.</button> -->
+            <button type="submit" name="button">please click here.</button>
           </div>
         </form>
 
-      <br>
+        <br>
       </div>
 
       <div class="col-md-6">
         <form class="formThree">
           <div class="jumbotron">
-            <h2>How many years of programming?</h2>
-            <select class="form-control" id="qustionThree">
-              <option value="0">1 year</option>
-              <option value="1">2 years</option>
-              <option value="2">3 years or above</option>
+            <h2>Do you need to do a numerical computaton in your interest?</h2>
+            <select class="form-control" id="questionThree">
+              <option value="0">No</option>
+              <option value="1">Yes</option>
+              <option value="2">Um...don't know</option>
             </select>
             <br>
-            <!-- <button type="submit" name="button">please click here.</button> -->
+            <button type="submit" name="button">please click here.</button>
           </div>
         </form>
-      <br>
+        <br>
       </div>
     </div>
 
@@ -77,11 +77,12 @@
               <option value="3">Um...not sure</option>
             </select>
             <br>
-            <button type="submit" name="button">please click here.</button>
+            <!-- <button type="submit" name="button">please click here.</button> -->
           </div>
         </form>
         <br>
       </div>
+
       <div class="col-md-6">
         <form class="formFive">
           <div class="jumbotron">
@@ -92,7 +93,7 @@
             </select>
             <br>
             <br>
-            <button type="submit" name="button">please click here.</button>
+            <!-- <button type="submit" name="button">please click here.</button> -->
           </div>
         </form>
         <br>
@@ -100,70 +101,70 @@
     </div>
 
 
+
     <!-- We set finally suggested language message from here. The finally suggested language message will be hidden until click the every submit button -->
-    <div class="jumbotron">
     <form class="formChoice">
-      <div>
-        <h2><br>Here is your best language to learn first!</h2> <!--we use <br> tag in order to make space between above button and text in this line -->
-        <ul>
-          <li>Please keep in your mind this is always a suggestion.</li>
-          <li>The way to go is not the only one but it can be easy or painful.</li>
-          <li>We hope you will love this programming language.</li>
-          <li>Please remember this is not the final stage but the starting place of your journey.</li>
-        </ul>
-        <button type="submit" name="button">please click it and you will find your best language to learn!</button>
-      </div>
-      <!-- We suggest the best language you should study first based on your answer in this page from five famous programming language. The selection logic for language is coming from the javascript program using branch method.  -->
-      <div id="languageZero">
-        <h3>practice typing</h3>
-        <ol>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ol>
-      </div>
-      <div id="languageOne">
-        <h3>bash shell programming</h3>
-        <ol>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ol>
-      </div>
-      <div id="languageTwo">
-        <h3>Ruby</h3>
-        <ol>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ol>
-      </div>
-      <div id="languageThree">
-        <h3>javascript</h3>
-        <ol>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ol>
-      </div>
-      <div id="languageFour">
-        <h3>python</h3>
-        <ol>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ol>
-      </div>
-      <div id="languageFive">
-        <h3>C++</h3>
-        <ol>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ol>
+      <div class="jumbotron">
+        <div>
+          <h2><br>Here is your best language to learn first!</h2> <!--we use <br> tag in order to make space between above button and text in this line -->
+          <ul>
+            <li>Please keep in your mind this is always a suggestion.</li>
+            <li>The way to go is not the only one but it can be easy or painful.</li>
+            <li>We hope you will love this programming language.</li>
+            <li>Please remember this is not the final stage but the starting place of your journey.</li>
+          </ul>
+        </div>
+        <!-- We suggest the best language you should study first based on your answer in this page from five famous programming language. The selection logic for language is coming from the javascript program using branch method.  -->
+        <div id="languageZero">
+          <h3>practice typing</h3>
+          <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ol>
+        </div>
+        <div id="languageOne">
+          <h3>bash shell programming</h3>
+          <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ol>
+        </div>
+        <div id="languageTwo">
+          <h3>Ruby</h3>
+          <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ol>
+        </div>
+        <div id="languageThree">
+          <h3>javascript</h3>
+          <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ol>
+        </div>
+        <div id="languageFour">
+          <h3>python</h3>
+          <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ol>
+        </div>
+        <div id="languageFive">
+          <h3>C++</h3>
+          <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ol>
+        </div>
       </div>
     </form>
-    </div>
   </div>
 </body>
 </html>
