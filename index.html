@@ -26,83 +26,83 @@
           <option value="1">Yes</option>
         </select>
         <br>
-        <button type="submit" name="button">please click here.</button>
+        <!-- <button type="submit" name="button">please click here.</button> -->
       </form>
     </div>
     <br>
 
-
-
     <div class="row">
       <div class="col-md-6">
-      <div class="jumbotron">
         <form class="formTwo">
-          <h2>Do you have any experience of computer programming?</h2>
-          <select class="form-control" id="questionTwo">
-            <option value="2">Yes</option>
-            <option value="3">No</option>
-          </select>
-          <br>
-          <button type="submit" name="button">please click here.</button>
+          <div class="jumbotron">
+            <h2>Do you have any experience of scripting or automation in computer?</h2>
+            <select class="form-control" id="questionTwo">
+              <option value="0">Yes</option>
+              <option value="1">No</option>
+            </select>
+            <br>
+            <!-- <button type="submit" name="button">please click here.</button> -->
+          </div>
         </form>
-      </div>
+
       <br>
       </div>
+
       <div class="col-md-6">
-      <div class="jumbotron">
         <form class="formThree">
-          <h2>How many years of programming?</h2>
-          <select class="form-control" id="qustionThree">
-            <option value="4">1 year</option>
-            <option value="5">2 years</option>
-            <option value="6">3 years or above</option>
-          </select>
-          <br>
-          <button type="submit" name="button">please click here.</button>
+          <div class="jumbotron">
+            <h2>How many years of programming?</h2>
+            <select class="form-control" id="qustionThree">
+              <option value="0">1 year</option>
+              <option value="1">2 years</option>
+              <option value="2">3 years or above</option>
+            </select>
+            <br>
+            <!-- <button type="submit" name="button">please click here.</button> -->
+          </div>
         </form>
-      </div>
       <br>
       </div>
     </div>
 
-
     <div class="row">
       <div class="col-md-6">
-        <div class="jumbotron">
-          <form class="formFour">
+        <form class="formFour">
+          <div class="jumbotron">
             <h2>Do you like something about?</h2>
             <select class="form-control" id="questionFour">
-              <option value="7">making a fantastic web page</option>
-              <option value="8">trendy data science and AI</option>
-              <option value="9">hardcore library for numerical computation</option>
-              <option value="10">Um...not sure</option>
+              <option value="0">making a fantastic web page</option>
+              <option value="1">trendy data science and AI</option>
+              <option value="2">hardcore library for numerical computation</option>
+              <option value="3">Um...not sure</option>
             </select>
             <br>
             <button type="submit" name="button">please click here.</button>
-          </form>
-        </div>
+          </div>
+        </form>
         <br>
       </div>
       <div class="col-md-6">
-        <div class="jumbotron">
-          <form class="formFive">
-            <h2>Are you already know about data stucture and algorithm?</h2>
+        <form class="formFive">
+          <div class="jumbotron">
+            <h2>Do you already know about data stucture and algorithm?</h2>
             <select class="form-control" id="qustionFive">
-              <option value="11">Sure, yes</option>
-              <option value="12">Not sure... but why?</option>
+              <option value="0">Sure, yes</option>
+              <option value="1">Not sure... but why?</option>
             </select>
             <br>
             <br>
             <button type="submit" name="button">please click here.</button>
-          </form>
-        </div>
+          </div>
+        </form>
         <br>
       </div>
     </div>
+
 
     <!-- We set finally suggested language message from here. The finally suggested language message will be hidden until click the every submit button -->
     <div class="jumbotron">
-    <form class="formSuggestion">
+    <form class="formChoice">
       <div>
         <h2><br>Here is your best language to learn first!</h2> <!--we use <br> tag in order to make space between above button and text in this line -->
         <ul>
@@ -114,6 +114,14 @@
         <button type="submit" name="button">please click it and you will find your best language to learn!</button>
       </div>
       <!-- We suggest the best language you should study first based on your answer in this page from five famous programming language. The selection logic for language is coming from the javascript program using branch method.  -->
+      <div id="languageZero">
+        <h3>practice typing</h3>
+        <ol>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ol>
+      </div>
       <div id="languageOne">
         <h3>bash shell programming</h3>
         <ol>

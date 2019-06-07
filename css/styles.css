@@ -2,6 +2,10 @@
   display: none;
 }
 
+.formTwo, .formThree, .formFour, .formFive {
+  display: none;
+}
+
 /* media part should be always the end of styles.css in order to work well with other css actions. */
 @media screen and (min-width: 768px) {
   .column {
