@@ -8,6 +8,7 @@
   <script src="js/scripts.js"></script>
   <title>Week2 Independent Project</title>
 </head>
+
 <body style="background-color: lightgrey">
   <div class="container">
     <div class="jumbotron">
@@ -18,15 +19,15 @@
     </div>
     <!-- We set five forms for five different qustions about programming -->
     <div class="jumbotron">
-      <form action="formOne">
-      <h2>Do you have any experience of computer?</h2>
-      <select class="form-control" id="questionOne">
-        <option value="0">Yes</option>
-        <option value="1">No</option>
-      </select>
-      <br>
-      <button type="submit" name="button">please click here.</button>
-    </form>
+      <form class="formOne" action="index.html" method="post">
+        <h2>Do you have any experience of computer?</h2>
+        <select class="form-control" id="questionOne">
+          <option value="0">No</option>
+          <option value="1">Yes</option>
+        </select>
+        <br>
+        <button type="submit" name="button">please click here.</button>
+      </form>
     </div>
     <br>
 
@@ -35,7 +36,7 @@
     <div class="row">
       <div class="col-md-6">
       <div class="jumbotron">
-        <form action="formTwo">
+        <form class="formTwo">
           <h2>Do you have any experience of computer programming?</h2>
           <select class="form-control" id="questionTwo">
             <option value="2">Yes</option>
@@ -49,7 +50,7 @@
       </div>
       <div class="col-md-6">
       <div class="jumbotron">
-        <form action="formThree">
+        <form class="formThree">
           <h2>How many years of programming?</h2>
           <select class="form-control" id="qustionThree">
             <option value="4">1 year</option>
@@ -68,7 +69,7 @@
     <div class="row">
       <div class="col-md-6">
         <div class="jumbotron">
-          <form action="formFour">
+          <form class="formFour">
             <h2>Do you like something about?</h2>
             <select class="form-control" id="questionFour">
               <option value="7">making a fantastic web page</option>
@@ -84,7 +85,7 @@
       </div>
       <div class="col-md-6">
         <div class="jumbotron">
-          <form action="formFive">
+          <form class="formFive">
             <h2>Are you already know about data stucture and algorithm?</h2>
             <select class="form-control" id="qustionFive">
               <option value="11">Sure, yes</option>
@@ -101,7 +102,7 @@
 
     <!-- We set finally suggested language message from here. The finally suggested language message will be hidden until click the every submit button -->
     <div class="jumbotron">
-    <form action="formSuggestion">
+    <form class="formSuggestion">
       <div>
         <h2><br>Here is your best language to learn first!</h2> <!--we use <br> tag in order to make space between above button and text in this line -->
         <ul>
